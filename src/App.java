@@ -15,6 +15,7 @@ public class App {
         FlappyBird flappybird=new FlappyBird();  // adding jpanel to our frame here
         frame.add(flappybird);
         frame.pack();
+        flappybird.requestFocus();
         frame.setVisible(true); //we want frame visible hereafter these steps
    
     }
